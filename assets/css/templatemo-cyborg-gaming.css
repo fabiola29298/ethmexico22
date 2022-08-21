@@ -20,16 +20,16 @@ Table of contents
 09. footer
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -79,7 +79,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #1e1e1e;
+  background-color: #ffffff !important;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -116,10 +116,10 @@ img {
   overflow: hidden;
 }
 
-/* 
+/*
 ---------------------------------------------
 Global Styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -129,7 +129,7 @@ body {
 
 body .page-content {
   margin-top: 110px;
-  background-color: #27292a;
+  background-color: #ffffff;
   padding: 60px;
   border-radius: 23px;
 }
@@ -152,7 +152,7 @@ p {
 }
 
 .templatemo-item {
-	max-width: 80px; 
+	max-width: 80px;
 	border-radius: 23px;
 }
 
@@ -221,15 +221,15 @@ section {
 }
 
 .heading-section h4 em {
-  color: #fff;
+  color: #000000;
   font-style: normal;
   text-decoration: underline;
 }
 
-/* 
+/*
 ---------------------------------------------
 Pre-loader Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .js-preloader {
@@ -328,10 +328,10 @@ Pre-loader Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 Header Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .background-header {
@@ -381,7 +381,7 @@ Header Style
 }
 
 .header-area .main-nav #search input {
-  background-color: #27292a;
+  background-color: #eceded;
   height: 46px;
   border-radius: 23px;
   border: none;
@@ -461,7 +461,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #27292a;
+  background-color: #f7f7f7;
   padding: 8px 10px 8px 20px;
   border-radius: 23px;
 }
@@ -766,10 +766,10 @@ Header Style
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 Banner Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .main-banner {
@@ -799,21 +799,21 @@ Banner Style
   color: #ec6090;
 }
 
-/* 
+/*
 ---------------------------------------------
 Most Popular Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: #f7f7f7;
   border-radius: 23px;
 }
 
 .most-popular .item {
-  background-color: #27292a;
+  background-color: #eceded;
   padding: 30px 15px;
   border-radius: 23px;
   margin-bottom: 30px;
@@ -868,10 +868,10 @@ Most Popular Style
   margin-bottom: -53px;
 }
 
-/* 
+/*
 ---------------------------------------------
 Gaming Library Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .gaming-library {
@@ -934,10 +934,10 @@ Gaming Library Style
   margin-bottom: -53px;
 }
 
-/* 
+/*
 ---------------------------------------------
 Footer Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 footer p {
@@ -956,10 +956,10 @@ footer p a:hover {
   color: #ec6090;
 }
 
-/* 
+/*
 ---------------------------------------------
 Featured Games Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .featured-games {
@@ -1134,10 +1134,10 @@ Featured Games Style
   font-size: 15px;
 }
 
-/* 
+/*
 ---------------------------------------------
 Start Stream Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .start-stream .heading-section {
@@ -1164,10 +1164,10 @@ Start Stream Style
   margin-top: 30px;
 }
 
-/* 
+/*
 ---------------------------------------------
 Live Stream Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .live-stream {
@@ -1188,7 +1188,7 @@ Live Stream Style
 }
 
 .live-stream .thumb img {
-  border-radius: 23px; 
+  border-radius: 23px;
 }
 
 .live-stream .thumb:hover .hover-effect {
@@ -1202,7 +1202,7 @@ Live Stream Style
   transition: all .4s;
 }
 
-.live-stream .hover-effect .live a { 
+.live-stream .hover-effect .live a {
   position: absolute;
   background-color: rgba(236, 96, 144, 0.9);
   padding: 5px 10px;
@@ -1267,10 +1267,10 @@ Live Stream Style
   margin-bottom: -53px;
 }
 
-/* 
+/*
 ---------------------------------------------
 Featured Banner Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .feature-banner .thumb {
@@ -1295,10 +1295,10 @@ Featured Banner Style
   color: #ec6090;
 }
 
-/* 
+/*
 ---------------------------------------------
 Game Details Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .game-details h2 {
@@ -1377,7 +1377,7 @@ Game Details Style
 
 .game-details .content .right-info ul li:first-child i {
   color: yellow;
-} 
+}
 
 .game-details .content .right-info ul li i {
   color: #ec6090;
@@ -1390,12 +1390,12 @@ Game Details Style
 .game-details .main-border-button a {
   text-align: center;
   width: 100%;
-} 
+}
 
-/* 
+/*
 ---------------------------------------------
 Other Related Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .other-games {
@@ -1450,10 +1450,10 @@ Other Related Style
   color: #ec6090;
 }
 
-/* 
+/*
 ---------------------------------------------
 Top Streamers Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .top-streamers {
@@ -1515,10 +1515,10 @@ Top Streamers Style
   padding: 8px 20px;
 }
 
-/* 
+/*
 ---------------------------------------------
 Profile Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .main-profile {
@@ -1631,10 +1631,10 @@ Profile Style
   text-align: center;
 }
 
-/* 
+/*
 ---------------------------------------------
 Responsive Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 body {
