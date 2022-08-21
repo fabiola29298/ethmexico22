@@ -1,0 +1,47 @@
+{
+  "description": "MATI NFT ",
+  "external_url": "https://github.com/eppr/nft-721",
+  "image": "https://raw.githubusercontent.com/EPPR/NFT-721/main/NFTeppr.png",
+  "name": "EPPR POAP",
+  "attributes": [
+    {
+      "trait_type": "Squirrel",
+      "value": "Tocomahtli"
+    },
+    {
+      "trait_type": "Rabbit",
+      "value": "Cuatochin"
+    },
+    {
+      "trait_type": "Prairie wolf",
+      "value": "Coyotl"
+    },
+    {
+      "trait_type": "Scorpion",
+      "value": "Colotl"
+    },
+    {
+      "trait_type": "Ant",
+      "value": "Ixcanelin"
+    },
+    {
+      "trait_type": "Raccoon",
+      "value": "Mapachin"
+    },
+    {
+      "display_type": "Pájaro",
+      "trait_type": "Bird",
+      "value": "Tototl"
+    },
+    {
+      "display_type": "Coatl",
+      "trait_type": "Snake",
+      "value": "Serpiente"
+    },
+    {
+      "display_type": "Venado",
+      "trait_type": "Deer",
+      "value": "Mazatl"
+    }
+  ]
+}
