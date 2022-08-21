@@ -160,7 +160,7 @@ p {
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #e75e8d;
+  background-color: #1a6f64;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -174,7 +174,7 @@ p {
 
 .main-button a:hover {
   background-color: #fff;
-  color: #e75e8d;
+  color: #1a6f64;
 }
 
 .main-border-button a {
@@ -797,7 +797,7 @@ Banner Style
 
 .main-banner h4 em {
   font-style: normal;
-  color: #ec6090;
+  color: #1a6f64;
 }
 
 /*
